@@ -20,7 +20,7 @@ friends[5] = "Monica"
 
 puts friends
 puts
-#length
+#length xxxx
 puts friends.length()
 
 #Include
