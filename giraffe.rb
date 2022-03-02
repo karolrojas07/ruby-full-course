@@ -69,7 +69,7 @@ puts ("but didn't like being " + character_age)
 #puts phrase.index("m")
 #puts phrase.index("name") #give the index where starts
 
-
+=begin
 #Math and Numbers
 puts 5
 puts 5 + 9 #sum
@@ -110,3 +110,17 @@ puts "integer with float got a float"
 puts 10 + 1
 puts 10.0 + 1.0
 puts 10 + 7.0
+=end
+
+########################
+# Getting user input
+
+## Install package platformio-ide-terminal
+## Run ruby file $ ruby giraffe.rb
+puts "Enter your name: "
+name = gets  #With newline
+puts ("Hello " + name + ", you are cool")
+
+puts "Enter your name again: "
+name2 = gets.chomp() # No new newline
+ puts ("Hello " + name2 + ", you are cool")
