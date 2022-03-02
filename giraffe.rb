@@ -32,3 +32,39 @@ puts ("but didn't like being " + character_age)
 #istall = false
 # null (Doesn't have a value)
 #flaw = nil
+
+#### Working with String ####
+# print quotation mark \"
+puts " \" Karol"
+# print new line \n
+puts " \n Karol"
+
+#Methods
+phrase = "Giraffe Academy"
+#Upper Case
+puts phrase.upcase()
+
+#Lower Case
+puts phrase.downcase()
+
+#strip (Remove spaces)
+phrase = "    Hello  "
+puts phrase.strip()
+
+#Length
+puts phrase.length()
+
+# Includes (validate if the string has the pattern)
+phrase = "This is my name"
+puts phrase.include? "This" #true
+puts phrase.include? "age" #false
+
+#Manage positions as an array
+puts phrase[0] #first position
+puts phrase[3] #fourth position
+#range:
+puts phrase[0,4] #from fist position to fourth position
+
+#get index
+puts phrase.index("m")
+puts phrase.index("name") #give the index where starts
