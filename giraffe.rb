@@ -1,0 +1,5 @@
+# print "Hello World"
+puts "   /|"
+puts "  / |"
+puts " /  |"
+puts "/___|"
