@@ -24,3 +24,9 @@ File.open("employees.txt", "r") do |file|
     puts line
   end
 end
+puts
+
+file = File.open("employees.txt", "r")
+puts file.read()
+
+file.close()

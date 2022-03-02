@@ -3,3 +3,6 @@ Andy, Sales
 Kelly, Customer Service
 Creed, Quality Assurance
 Michael, Manager
+
+Oscar, Accounting
+Oscar, Accounting
