@@ -35,36 +35,78 @@ puts ("but didn't like being " + character_age)
 
 #### Working with String ####
 # print quotation mark \"
-puts " \" Karol"
+#puts " \" Karol"
 # print new line \n
-puts " \n Karol"
+#puts " \n Karol"
 
 #Methods
-phrase = "Giraffe Academy"
+#phrase = "Giraffe Academy"
 #Upper Case
-puts phrase.upcase()
+#puts phrase.upcase()
 
 #Lower Case
-puts phrase.downcase()
+#puts phrase.downcase()
 
 #strip (Remove spaces)
-phrase = "    Hello  "
-puts phrase.strip()
+#phrase = "    Hello  "
+#puts phrase.strip()
 
 #Length
-puts phrase.length()
+#puts phrase.length()
 
 # Includes (validate if the string has the pattern)
-phrase = "This is my name"
-puts phrase.include? "This" #true
-puts phrase.include? "age" #false
+#phrase = "This is my name"
+#puts phrase.include? "This" #true
+#puts phrase.include? "age" #false
 
 #Manage positions as an array
-puts phrase[0] #first position
-puts phrase[3] #fourth position
+#puts phrase[0] #first position
+#puts phrase[3] #fourth position
 #range:
-puts phrase[0,4] #from fist position to fourth position
+#puts phrase[0,4] #from fist position to fourth position
 
 #get index
-puts phrase.index("m")
-puts phrase.index("name") #give the index where starts
+#puts phrase.index("m")
+#puts phrase.index("name") #give the index where starts
+
+
+#Math and Numbers
+puts 5
+puts 5 + 9 #sum
+puts 5 - 3 #substract
+puts 10 / 2 #divide
+puts 4 * 3 # multiply
+puts 10 % 5 #mudulus
+puts 2 ** 3 # exponent
+
+#convert to String (.to_s)
+num = 20
+puts ("my favorite number is: " + num.to_s)
+
+num = -20
+### Methods
+puts num.abs() #absolute value
+
+num = 20.7234
+puts num.round() ## Rounded Up (>=5)
+num = 20.123
+puts num.round() ## Rouded down (<5)
+
+num = 20.1
+puts num.ceil() ## High value
+num = 20.9
+puts num.floor() # low value
+
+puts "Math  class"
+puts Math.sqrt(16)
+puts Math.log(1)
+puts "With Math is posible to do Sine, cosine, tangent functions"
+
+puts "Two basic types of Numbers (Integers and float points)"
+puts "integer with integer got an Integers"
+puts "float with float got a float"
+puts "integer with float got a float"
+
+puts 10 + 1
+puts 10.0 + 1.0
+puts 10 + 7.0
