@@ -1,3 +1,5 @@
+## Run in the cmd (Terminal) $ ruby calculator.rb
+
 puts "Enter a number: "
 num1 = gets.chomp()
 
