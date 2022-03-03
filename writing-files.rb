@@ -8,15 +8,15 @@
 #      on Windows. And sets external encoding to ASCII-8BIT unless explicitly  specified.
 # t = Text file mode (may appear with any of the key letters listed above except "b").
 
-File.open("employees.txt","a") do |file|
+File.open("files/employees.txt","a") do |file|
   file.write("\nOscar, Accounting")
 end
 
-File.open("index.html","w+") do |file|
+File.open("files/index.html","w+") do |file|
   file.write("<h1>Hello</h1>")
 end
 
-File.open("index.html","r+") do |file|
+File.open("files/index.html","r+") do |file|
   file.readline()
   file.write("\n<span>Overriden</span>")
 end
